@@ -3,7 +3,8 @@ This repository contains the source code and experimental artifacts for our pape
 
 
 Our experiments were conducted on the following environment:
--OS: Ubuntu 20.04.6 LTS
--CPU: 12th Gen Intel(R) Core(TM) i7-12700F
--Memory: 94GB
--Python: 3.11.7
+
+  -**OS**: Ubuntu 20.04.6 LTS \
+  -**CPU**: 12th Gen Intel(R) Core(TM) i7-12700F \
+  -**Mem**: 94GB \
+  -**Python**: 3.11.7 
