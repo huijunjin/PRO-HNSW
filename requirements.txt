@@ -1,0 +1,7 @@
+h5py==3.11.0
+matplotlib==3.8.3
+numpy==2.3.0
+pandas==2.3.0
+pybind11==2.13.5
+pydriller==2.7
+setuptools==68.2.2
