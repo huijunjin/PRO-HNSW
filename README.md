@@ -20,7 +20,10 @@ Code replacement \
 Overwrite ```~/hnswlib/hnswlib/hnswalg.h``` with ```/src/hnswalg.h``` \
 Overwirte ```~/hnswlib/python_bindings/bindings.cpp``` with ```/src/bindings.cpp``` 
 
-Experiment
+Experiment \
+Parameters that need to be modified: \
+DATA_ROOT_HDF5 = "./data"\
+RESULTS_DIR = "./results"
 
 
 # PRO-HNSW: Proactive Repair and Optimization for High-Performance Dynamic HNSW Indexes
