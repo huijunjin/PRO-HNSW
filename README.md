@@ -4,7 +4,9 @@ This repository contains the source code and experimental artifacts for our pape
 
 Our experiments were conducted on python version of **3.11.7**.
 
-## Environment & Setup
+## ⚙️ Environment & Setup
+
+Please follow these steps in a terminal to set up the project.
 
 ### 1. Install requirements
 ```
@@ -35,14 +37,19 @@ chmod +x build.sh
 ./build.sh
 ```
 
-## Dataset Preparation
+## 💾 Dataset Preparation
 
-### Download datasets into './PRO-HNSW/data' directory with HDF5 format
+The datasets used in our experiments are from the ann-benchmarks suite. Please download them into the **./PRO-HNSW/data/** directory in HDF5 format.
 
-https://github.com/erikbern/ann-benchmarks 
+- Dataset Source: https://github.com/erikbern/ann-benchmarks
+- Datasets Used: **DeepImage, GIST1M, SIFT1M, NYTimes, MNIST, Fashion-MNIST, COCO-I2I, GloVe-25**
 
-Only using **DeepImage, GIST1M, SIFT1M, NYTimes, MNIST, Fashion-MNIST, COCO-I2I, GloVe-25** datasets.
+## 🚀 Run Experiments
 
-## Run Experiments
+All experiments are provided as Jupyter Notebooks located in the /PRO-HNSW/exp/ directory.
 
-### 
+- Experiment 1: **Bulk Update**
+- Experiment 2: **Consecutive Update**
+- Experiment 3: **Recall Resilience**
+- Experiment 4: **No Updates**
+
